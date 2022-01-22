@@ -1,0 +1,14 @@
+project name:Policies and Permissions
+
+tools used:Aws
+
+as  per the requirements 
+
+i have created the bucket 
+i have added the policies like action principal and statements .
+and i have uploded the screen shots to the github and the policy source code 
+
+
+thank you
+regards
+Vishwanath C R

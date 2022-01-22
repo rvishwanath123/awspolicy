@@ -1,0 +1,24 @@
+{
+  "Id": "Policy1642870311695",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1642870297662",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::$vishwanathsirige/$testing",
+      "Condition": {
+        "ArnLike": {
+          "aws:CurrentTime": "20.00"
+        }
+      },
+      "Principal": {
+        "AWS": [
+          "527163332740"
+        ]
+      }
+    }
+  ]
+}
